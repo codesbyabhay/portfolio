@@ -367,3 +367,13 @@ grid-template-columns:1fr;
     }
 
 }
+
+@media(max-width:992px){
+
+.contact-wrapper{
+
+grid-template-columns:1fr;
+
+}
+
+}

@@ -1,0 +1,83 @@
+/* ==========================================================
+   CONTACT
+========================================================== */
+
+.contact-wrapper{
+
+    display:grid;
+
+    grid-template-columns:350px 1fr;
+
+    gap:3rem;
+
+}
+
+.contact-card{
+
+    display:flex;
+
+    gap:1rem;
+
+    align-items:flex-start;
+
+    background:var(--bg-card);
+
+    border:1px solid var(--border);
+
+    padding:1.5rem;
+
+    border-radius:18px;
+
+    margin-bottom:1.5rem;
+
+}
+
+.contact-card i{
+
+    font-size:1.5rem;
+
+    color:var(--primary);
+
+}
+
+.contact-form{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:1.5rem;
+
+}
+
+.contact-form input,
+
+.contact-form textarea{
+
+    background:var(--bg-card);
+
+    border:1px solid var(--border);
+
+    padding:1rem;
+
+    border-radius:12px;
+
+    color:var(--text);
+
+}
+
+.contact-form textarea{
+
+    resize:vertical;
+
+    min-height:180px;
+
+}
+
+.contact-form input:focus,
+
+.contact-form textarea:focus{
+
+    border-color:var(--primary);
+
+}
