@@ -1,25 +1,23 @@
-const menuBtn=document.getElementById("menuBtn");
+const header = document.getElementById("header");
+const menuBtn = document.getElementById("menuBtn");
+const navMenu = document.getElementById("navMenu");
 
-const navMenu=document.querySelector(".nav-menu");
+window.addEventListener("scroll", () => {
 
-menuBtn.addEventListener("click",()=>{
+    if (window.scrollY > 50) {
 
-navMenu.classList.toggle("active");
+        header.classList.add("scrolled");
+
+    } else {
+
+        header.classList.remove("scrolled");
+
+    }
 
 });
 
-window.addEventListener("scroll",()=>{
+menuBtn.addEventListener("click", () => {
 
-const header=document.getElementById("header");
-
-if(window.scrollY>80){
-
-header.classList.add("scrolled");
-
-}else{
-
-header.classList.remove("scrolled");
-
-}
+    navMenu.classList.toggle("active");
 
 });

@@ -1,0 +1,11 @@
+{
+  "name": "Abhay Singh Portfolio",
+  "short_name": "Portfolio",
+  "description": "Professional Portfolio of Abhay Singh",
+  "start_url": "/portfolio/",
+  "display": "standalone",
+  "background_color": "#020617",
+  "theme_color": "#020617",
+  "orientation": "portrait-primary",
+  "icons": []
+}

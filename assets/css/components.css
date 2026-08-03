@@ -56,13 +56,16 @@
     color:white;
 }
 
-.logo-text{
+.logo-text {
 
-    background:var(--gradient-primary);
+    background: var(--gradient-primary);
 
-    -webkit-background-clip:text;
+    background-clip: text;
+    -webkit-background-clip: text;
 
-    -webkit-text-fill-color:transparent;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+
 }
 
 /* Menu */
