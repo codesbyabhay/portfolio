@@ -1,0 +1,293 @@
+/* ==========================================================
+   UTILITIES.CSS
+   Reusable Utility Classes
+========================================================== */
+
+/* =========================
+   CONTAINER
+========================= */
+
+.container {
+    width: min(100% - 2rem, var(--container-width));
+    margin-inline: auto;
+}
+
+/* =========================
+   SECTION
+========================= */
+
+.section {
+    padding: var(--space-10) 0;
+}
+
+.section-sm {
+    padding: var(--space-8) 0;
+}
+
+.section-lg {
+    padding: calc(var(--space-10) + 2rem) 0;
+}
+
+/* =========================
+   FLEX
+========================= */
+
+.flex {
+    display: flex;
+}
+
+.flex-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.flex-between {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+/* =========================
+   GRID
+========================= */
+
+.grid {
+    display: grid;
+    gap: var(--space-5);
+}
+
+.grid-2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: var(--space-6);
+}
+
+.grid-3 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: var(--space-6);
+}
+
+.grid-4 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: var(--space-5);
+}
+
+/* =========================
+   TEXT ALIGNMENT
+========================= */
+
+.text-center {
+    text-align: center;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-right {
+    text-align: right;
+}
+
+/* =========================
+   WIDTH
+========================= */
+
+.w-100 {
+    width: 100%;
+}
+
+.h-100 {
+    height: 100%;
+}
+
+/* =========================
+   SPACING
+========================= */
+
+.mt-1 { margin-top: var(--space-1); }
+.mt-2 { margin-top: var(--space-2); }
+.mt-3 { margin-top: var(--space-3); }
+.mt-4 { margin-top: var(--space-4); }
+.mt-5 { margin-top: var(--space-5); }
+.mt-6 { margin-top: var(--space-6); }
+
+.mb-1 { margin-bottom: var(--space-1); }
+.mb-2 { margin-bottom: var(--space-2); }
+.mb-3 { margin-bottom: var(--space-3); }
+.mb-4 { margin-bottom: var(--space-4); }
+.mb-5 { margin-bottom: var(--space-5); }
+.mb-6 { margin-bottom: var(--space-6); }
+
+/* =========================
+   BUTTONS
+========================= */
+
+.btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: .6rem;
+
+    padding: .95rem 1.8rem;
+
+    border: none;
+    border-radius: var(--radius-round);
+
+    font-size: var(--fs-sm);
+    font-weight: var(--fw-semibold);
+
+    cursor: pointer;
+
+    transition: var(--transition-normal);
+
+    text-decoration: none;
+}
+
+.btn-primary {
+    background: var(--gradient-primary);
+    color: white;
+}
+
+.btn-primary:hover {
+    transform: translateY(-3px);
+    box-shadow: var(--shadow-glow);
+}
+
+.btn-outline {
+    border: 1px solid var(--border-color);
+    color: var(--text-primary);
+    background: transparent;
+}
+
+.btn-outline:hover {
+    background: var(--glass-bg);
+}
+
+/* =========================
+   GLASS CARD
+========================= */
+
+.glass {
+    background: var(--glass-bg);
+
+    border: 1px solid var(--glass-border);
+
+    backdrop-filter: var(--glass-blur);
+
+    border-radius: var(--radius-lg);
+}
+
+/* =========================
+   CARD
+========================= */
+
+.card {
+    background: var(--bg-secondary);
+
+    border: 1px solid var(--border-color);
+
+    border-radius: var(--radius-lg);
+
+    padding: var(--space-6);
+
+    transition: var(--transition-normal);
+}
+
+.card:hover {
+    transform: translateY(-8px);
+
+    box-shadow: var(--shadow-lg);
+}
+
+/* =========================
+   IMAGE
+========================= */
+
+.img-fluid {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* =========================
+   BADGE
+========================= */
+
+.badge {
+    display: inline-flex;
+
+    align-items: center;
+
+    gap: .5rem;
+
+    padding: .55rem 1rem;
+
+    border-radius: var(--radius-round);
+
+    background: rgba(37,99,235,.15);
+
+    color: var(--color-primary);
+
+    font-size: .85rem;
+
+    font-weight: 600;
+}
+
+/* =========================
+   GRADIENT TEXT
+========================= */
+
+.gradient-text {
+
+    background: var(--gradient-text);
+
+    -webkit-background-clip: text;
+
+    -webkit-text-fill-color: transparent;
+
+    background-clip: text;
+}
+
+/* =========================
+   VISIBILITY
+========================= */
+
+.hidden {
+    display: none !important;
+}
+
+.visible {
+    display: block !important;
+}
+
+/* =========================
+   OVERFLOW
+========================= */
+
+.overflow-hidden {
+    overflow: hidden;
+}
+
+/* =========================
+   BORDER RADIUS
+========================= */
+
+.rounded {
+    border-radius: var(--radius-md);
+}
+
+.rounded-lg {
+    border-radius: var(--radius-lg);
+}
+
+.rounded-full {
+    border-radius: 999px;
+}
