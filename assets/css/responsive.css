@@ -39,3 +39,37 @@
 }
 
 }
+
+/* ==========================================================
+   HERO
+========================================================== */
+
+@media(max-width:992px){
+
+.hero-content{
+
+grid-template-columns:1fr;
+
+text-align:center;
+
+}
+
+.hero-buttons{
+
+justify-content:center;
+
+}
+
+.hero-social{
+
+justify-content:center;
+
+}
+
+.profile-card img{
+
+width:280px;
+
+}
+
+}
