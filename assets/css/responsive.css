@@ -46,7 +46,7 @@
 
 @media(max-width:992px){
 
-.hero-content{
+.hero-container{
 
 grid-template-columns:1fr;
 
@@ -66,9 +66,21 @@ justify-content:center;
 
 }
 
-.profile-card img{
+.hero-image{
 
-width:280px;
+margin-top:3rem;
+
+}
+
+.hero-image img{
+
+width:300px;
+
+}
+
+.hero-title{
+
+font-size:3rem;
 
 }
 

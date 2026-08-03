@@ -1,41 +1,54 @@
-const typingText = document.getElementById("typing");
+const words = [
+    "Software Engineer",
+    "Full Stack Developer",
+    "Python Developer",
+    "Laravel Developer",
+    "Technical Trainer",
+    "AI & ML Learner"
+];
 
-if (typingText) {
+const typing = document.getElementById("typing");
 
-    const words = [
-        "Software Engineer",
-        "Full Stack Developer",
-        "Python Developer"
-    ];
+let word = 0;
+let letter = 0;
+let reverse = false;
 
-    let wordIndex = 0;
-    let charIndex = 0;
-    let deleting = false;
+function typingEffect(){
 
-    function typeEffect() {
+    if(!typing) return;
 
-        const current = words[wordIndex];
+    const current = words[word];
 
-        if (!deleting) {
-            typingText.textContent = current.substring(0, charIndex++);
-        } else {
-            typingText.textContent = current.substring(0, charIndex--);
+    if(!reverse){
+
+        typing.textContent = current.slice(0, ++letter);
+
+        if(letter === current.length){
+
+            reverse = true;
+
+            setTimeout(typingEffect,1200);
+
+            return;
+
         }
 
-        let speed = deleting ? 50 : 100;
+    }else{
 
-        if (!deleting && charIndex > current.length) {
-            deleting = true;
-            speed = 1200;
+        typing.textContent = current.slice(0,--letter);
+
+        if(letter===0){
+
+            reverse=false;
+
+            word=(word+1)%words.length;
+
         }
 
-        if (deleting && charIndex < 0) {
-            deleting = false;
-            wordIndex = (wordIndex + 1) % words.length;
-        }
-
-        setTimeout(typeEffect, speed);
     }
 
-    typeEffect();
+    setTimeout(typingEffect, reverse?45:90);
+
 }
+
+typingEffect();
