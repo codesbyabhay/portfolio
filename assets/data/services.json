@@ -1,0 +1,32 @@
+[
+    {
+        "icon": "fa-solid fa-code",
+        "title": "Full Stack Development",
+        "description": "Building responsive, scalable, and secure web applications using modern technologies."
+    },
+    {
+        "icon": "fa-solid fa-laptop-code",
+        "title": "Frontend Development",
+        "description": "Creating beautiful, responsive, and user-friendly interfaces using HTML, CSS, JavaScript, and modern frameworks."
+    },
+    {
+        "icon": "fa-solid fa-server",
+        "title": "Backend Development",
+        "description": "Developing secure REST APIs, authentication systems, and business logic using PHP and Laravel."
+    },
+    {
+        "icon": "fa-solid fa-graduation-cap",
+        "title": "Technical Training",
+        "description": "Providing professional training in Python, Java, PHP, Laravel, Web Development, AI, and Database Management."
+    },
+    {
+        "icon": "fa-solid fa-brain",
+        "title": "AI & Machine Learning",
+        "description": "Developing intelligent applications using Python, NumPy, Pandas, and Scikit-learn."
+    },
+    {
+        "icon": "fa-solid fa-globe",
+        "title": "Website Development",
+        "description": "Designing and developing SEO-friendly, responsive, and high-performance websites for businesses and individuals."
+    }
+]
