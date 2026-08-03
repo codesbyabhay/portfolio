@@ -1,0 +1,87 @@
+/* ==========================================================
+   ABOUT
+========================================================== */
+
+.about-content{
+
+    display:grid;
+
+    grid-template-columns:350px 1fr;
+
+    gap:4rem;
+
+    align-items:center;
+
+}
+
+.about-image img{
+
+    border-radius:24px;
+
+    width:100%;
+
+    box-shadow:var(--shadow-lg);
+
+}
+
+.about-text p{
+
+    margin-bottom:1.5rem;
+
+}
+
+.about-info{
+
+    display:grid;
+
+    grid-template-columns:repeat(3,1fr);
+
+    gap:1.5rem;
+
+    margin-top:2rem;
+
+}
+
+.about-info div{
+
+    background:var(--bg-card);
+
+    border:1px solid var(--border);
+
+    padding:1.5rem;
+
+    border-radius:18px;
+
+}
+
+.about-info strong{
+
+    display:block;
+
+    margin-bottom:.5rem;
+
+    color:var(--primary);
+
+}
+
+.section-header{
+
+    text-align:center;
+
+    margin-bottom:4rem;
+
+}
+
+.section-subtitle{
+
+    color:var(--primary);
+
+    font-weight:600;
+
+}
+
+.section-title{
+
+    margin-top:1rem;
+
+}
