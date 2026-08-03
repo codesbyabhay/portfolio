@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Rahul Sharma",
+    "role": "Student",
+    "company": "IICS",
+    "image": "assets/images/testimonials/rahul.jpg",
+    "rating": 5,
+    "message": "Abhay explains programming concepts in a very practical and easy-to-understand way. His guidance helped me build confidence in web development."
+  },
+  {
+    "name": "Priya Verma",
+    "role": "Freelance Client",
+    "company": "Startup Founder",
+    "image": "assets/images/testimonials/priya.jpg",
+    "rating": 5,
+    "message": "The project was delivered on time with excellent quality. Communication and professionalism were outstanding throughout the development process."
+  },
+  {
+    "name": "Amit Kumar",
+    "role": "Student",
+    "company": "IICS",
+    "image": "assets/images/testimonials/amit.jpg",
+    "rating": 5,
+    "message": "The practical coding sessions and project-based learning approach made complex topics much easier to understand."
+  }
+]
