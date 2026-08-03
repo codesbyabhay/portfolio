@@ -1,0 +1,16 @@
+[
+  {
+    "designation": "Software Trainer",
+    "company": "Indian Institute of Computer Science (IICS)",
+    "location": "Delhi, India",
+    "duration": "2025 - Present",
+    "description": "Teaching Python, Java, PHP, Laravel, HTML, CSS, JavaScript, MySQL, AI fundamentals, and Digital Marketing while mentoring students on real-world software development."
+  },
+  {
+    "designation": "Freelance Full Stack Developer",
+    "company": "CodesByAbhay",
+    "location": "Remote",
+    "duration": "2024 - Present",
+    "description": "Building responsive websites, web applications, portfolio websites, business solutions, and providing technical consultation."
+  }
+]

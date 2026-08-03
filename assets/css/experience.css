@@ -1,0 +1,103 @@
+/* ==========================================================
+   EXPERIENCE
+========================================================== */
+
+.timeline{
+
+    position:relative;
+
+    max-width:900px;
+
+    margin:auto;
+
+}
+
+.timeline::before{
+
+    content:"";
+
+    position:absolute;
+
+    left:20px;
+
+    top:0;
+
+    width:2px;
+
+    height:100%;
+
+    background:var(--primary);
+
+}
+
+.timeline-item{
+
+    position:relative;
+
+    padding-left:70px;
+
+    margin-bottom:3rem;
+
+}
+
+.timeline-dot{
+
+    position:absolute;
+
+    left:11px;
+
+    top:10px;
+
+    width:20px;
+
+    height:20px;
+
+    border-radius:50%;
+
+    background:var(--primary);
+
+}
+
+.timeline-content{
+
+    background:var(--bg-card);
+
+    border:1px solid var(--border);
+
+    border-radius:20px;
+
+    padding:2rem;
+
+    transition:var(--transition);
+
+}
+
+.timeline-content:hover{
+
+    transform:translateY(-6px);
+
+    box-shadow:var(--shadow-lg);
+
+}
+
+.timeline-duration{
+
+    color:var(--primary);
+
+    font-weight:600;
+
+}
+
+.timeline-content h3{
+
+    margin:.8rem 0 .3rem;
+
+}
+
+.timeline-content h4{
+
+    color:var(--text-light);
+
+    margin-bottom:.3rem;
+
+}
