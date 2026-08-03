@@ -1,0 +1,71 @@
+/* ==========================================================
+   BLOG
+========================================================== */
+
+.blog-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(3,1fr);
+
+    gap:2rem;
+
+}
+
+.blog-card{
+
+    background:var(--bg-card);
+
+    border:1px solid var(--border);
+
+    border-radius:20px;
+
+    overflow:hidden;
+
+    transition:var(--transition);
+
+}
+
+.blog-card:hover{
+
+    transform:translateY(-8px);
+
+    box-shadow:var(--shadow-lg);
+
+}
+
+.blog-card img{
+
+    width:100%;
+
+    height:220px;
+
+    object-fit:cover;
+
+}
+
+.blog-content{
+
+    padding:1.5rem;
+
+}
+
+.blog-category{
+
+    color:var(--primary);
+
+    font-weight:600;
+
+}
+
+.blog-content h3{
+
+    margin:1rem 0;
+
+}
+
+.blog-content p{
+
+    margin-bottom:1rem;
+
+}

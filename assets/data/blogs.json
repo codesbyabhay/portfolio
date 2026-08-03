@@ -1,0 +1,26 @@
+[
+    {
+        "title": "Building a Professional Portfolio Website",
+        "description": "Learn how to create a responsive portfolio website using HTML, CSS, JavaScript, and JSON.",
+        "image": "assets/images/blog/portfolio.jpg",
+        "date": "2026-08-03",
+        "category": "Web Development",
+        "url": "#"
+    },
+    {
+        "title": "Laravel Best Practices",
+        "description": "Best coding practices for building scalable Laravel applications.",
+        "image": "assets/images/blog/laravel.jpg",
+        "date": "2026-08-01",
+        "category": "Laravel",
+        "url": "#"
+    },
+    {
+        "title": "Introduction to Machine Learning",
+        "description": "Getting started with Machine Learning using Python and Scikit-learn.",
+        "image": "assets/images/blog/ml.jpg",
+        "date": "2026-07-28",
+        "category": "AI",
+        "url": "#"
+    }
+]
