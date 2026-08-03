@@ -1,0 +1,359 @@
+/* ==========================================================
+   STYLE.CSS
+   Global Styles
+   Author: Abhay Singh
+   Project: Professional Portfolio
+========================================================== */
+
+/* ==========================================================
+   RESET
+========================================================== */
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ==========================================================
+   ROOT
+========================================================== */
+
+html {
+    font-size: 16px;
+    scroll-behavior: smooth;
+    scroll-padding-top: var(--navbar-height);
+}
+
+/* ==========================================================
+   BODY
+========================================================== */
+
+body {
+
+    font-family: var(--font-primary);
+
+    font-size: var(--fs-md);
+
+    color: var(--text-primary);
+
+    background: var(--bg-primary);
+
+    line-height: 1.7;
+
+    overflow-x: hidden;
+
+    text-rendering: optimizeLegibility;
+
+    -webkit-font-smoothing: antialiased;
+
+    -moz-osx-font-smoothing: grayscale;
+}
+
+/* ==========================================================
+   SELECTION
+========================================================== */
+
+::selection {
+
+    background: var(--color-primary);
+
+    color: white;
+}
+
+/* ==========================================================
+   SCROLLBAR
+========================================================== */
+
+::-webkit-scrollbar {
+
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+
+    background: var(--bg-primary);
+}
+
+::-webkit-scrollbar-thumb {
+
+    background: var(--color-primary);
+
+    border-radius: 20px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+
+    background: var(--color-secondary);
+}
+
+/* ==========================================================
+   HEADINGS
+========================================================== */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+
+    font-family: var(--font-heading);
+
+    font-weight: var(--fw-bold);
+
+    line-height: 1.2;
+
+    color: var(--text-primary);
+}
+
+h1 {
+    font-size: var(--fs-3xl);
+}
+
+h2 {
+    font-size: var(--fs-2xl);
+}
+
+h3 {
+    font-size: var(--fs-xl);
+}
+
+h4 {
+    font-size: var(--fs-lg);
+}
+
+/* ==========================================================
+   TEXT
+========================================================== */
+
+p {
+
+    color: var(--text-secondary);
+
+    margin-bottom: 1rem;
+}
+
+small {
+
+    font-size: var(--fs-sm);
+
+    color: var(--text-muted);
+}
+
+/* ==========================================================
+   LINKS
+========================================================== */
+
+a {
+
+    color: inherit;
+
+    text-decoration: none;
+
+    transition: var(--transition-fast);
+}
+
+a:hover {
+
+    color: var(--color-primary);
+}
+
+/* ==========================================================
+   LISTS
+========================================================== */
+
+ul,
+ol {
+
+    list-style: none;
+}
+
+/* ==========================================================
+   IMAGES
+========================================================== */
+
+img {
+
+    display: block;
+
+    max-width: 100%;
+
+    height: auto;
+}
+
+/* ==========================================================
+   BUTTONS
+========================================================== */
+
+button {
+
+    border: none;
+
+    background: none;
+
+    cursor: pointer;
+
+    font: inherit;
+}
+
+/* ==========================================================
+   INPUTS
+========================================================== */
+
+input,
+textarea,
+select {
+
+    font: inherit;
+
+    outline: none;
+
+    border: none;
+}
+
+/* ==========================================================
+   MAIN
+========================================================== */
+
+main {
+
+    position: relative;
+}
+
+/* ==========================================================
+   SECTION
+========================================================== */
+
+section {
+
+    position: relative;
+
+    padding: var(--space-10) 0;
+}
+
+/* ==========================================================
+   CONTAINER DEFAULT
+========================================================== */
+
+.container {
+
+    width: min(1320px, calc(100% - 40px));
+
+    margin-inline: auto;
+}
+
+/* ==========================================================
+   FOCUS
+========================================================== */
+
+:focus-visible {
+
+    outline: 2px solid var(--color-primary);
+
+    outline-offset: 4px;
+}
+
+/* ==========================================================
+   HR
+========================================================== */
+
+hr {
+
+    border: none;
+
+    height: 1px;
+
+    background: var(--border-color);
+
+    margin: 3rem 0;
+}
+
+/* ==========================================================
+   TABLE
+========================================================== */
+
+table {
+
+    width: 100%;
+
+    border-collapse: collapse;
+}
+
+/* ==========================================================
+   LOADER
+========================================================== */
+
+#preloader {
+
+    position: fixed;
+
+    inset: 0;
+
+    background: var(--bg-primary);
+
+    z-index: var(--z-loader);
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+}
+
+/* ==========================================================
+   BACK TO TOP
+========================================================== */
+
+#backToTop {
+
+    position: fixed;
+
+    right: 30px;
+
+    bottom: 30px;
+
+    width: 50px;
+
+    height: 50px;
+
+    border-radius: 50%;
+
+    background: var(--gradient-primary);
+
+    color: white;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    box-shadow: var(--shadow-md);
+
+    opacity: 0;
+
+    visibility: hidden;
+
+    transition: var(--transition-normal);
+
+    z-index: var(--z-fixed);
+}
+
+#backToTop.show {
+
+    opacity: 1;
+
+    visibility: visible;
+}
+
+/* ==========================================================
+   PLACEHOLDER SECTIONS
+========================================================== */
+
+section:empty {
+
+    min-height: 100px;
+}
