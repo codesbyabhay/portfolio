@@ -1,0 +1,71 @@
+/* ==========================================================
+   CERTIFICATIONS
+========================================================== */
+
+.certificates-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(3,1fr);
+
+    gap:2rem;
+
+}
+
+.certificate-card{
+
+    background:var(--bg-card);
+
+    border:1px solid var(--border);
+
+    border-radius:20px;
+
+    overflow:hidden;
+
+    transition:var(--transition);
+
+}
+
+.certificate-card:hover{
+
+    transform:translateY(-8px);
+
+    box-shadow:var(--shadow-lg);
+
+}
+
+.certificate-card img{
+
+    width:100%;
+
+    height:220px;
+
+    object-fit:cover;
+
+}
+
+.certificate-content{
+
+    padding:1.5rem;
+
+}
+
+.certificate-date{
+
+    color:var(--primary);
+
+    font-weight:600;
+
+}
+
+.certificate-content h3{
+
+    margin:1rem 0 .5rem;
+
+}
+
+.certificate-content p{
+
+    margin-bottom:1.5rem;
+
+}

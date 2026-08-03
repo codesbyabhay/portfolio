@@ -1,0 +1,23 @@
+[
+  {
+    "title": "Python Programming",
+    "issuer": "Indian Institute of Computer Science",
+    "date": "2024",
+    "image": "assets/images/certificates/python.jpg",
+    "credential": "#"
+  },
+  {
+    "title": "Java Programming",
+    "issuer": "Indian Institute of Computer Science",
+    "date": "2024",
+    "image": "assets/images/certificates/java.jpg",
+    "credential": "#"
+  },
+  {
+    "title": "Web Development",
+    "issuer": "Indian Institute of Computer Science",
+    "date": "2025",
+    "image": "assets/images/certificates/web-development.jpg",
+    "credential": "#"
+  }
+]
