@@ -1,0 +1,67 @@
+/* ==========================================================
+   EDUCATION
+========================================================== */
+
+.education-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(3,1fr);
+
+    gap:2rem;
+
+}
+
+.education-card{
+
+    background:var(--bg-card);
+
+    border:1px solid var(--border);
+
+    border-radius:20px;
+
+    padding:2rem;
+
+    transition:var(--transition);
+
+}
+
+.education-card:hover{
+
+    transform:translateY(-8px);
+
+    box-shadow:var(--shadow-lg);
+
+}
+
+.education-duration{
+
+    display:inline-block;
+
+    color:var(--primary);
+
+    font-weight:600;
+
+    margin-bottom:1rem;
+
+}
+
+.education-card h3{
+
+    margin-bottom:.75rem;
+
+}
+
+.education-card h4{
+
+    color:var(--text-light);
+
+    margin-bottom:.5rem;
+
+}
+
+.education-card p{
+
+    margin-top:1rem;
+
+}

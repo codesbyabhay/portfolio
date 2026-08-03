@@ -1,0 +1,23 @@
+[
+  {
+    "degree": "Bachelor of Computer Applications (BCA)",
+    "institution": "Indira Gandhi National Open University (IGNOU)",
+    "duration": "2024 - Present",
+    "location": "New Delhi, India",
+    "description": "Studying computer science fundamentals, software development, databases, networking, operating systems, and web technologies."
+  },
+  {
+    "degree": "Master Diploma in Computer Engineering (MDCE)",
+    "institution": "Indian Institute of Computer Science (IICS)",
+    "duration": "Completed",
+    "location": "Delhi, India",
+    "description": "Comprehensive training in programming, web development, software engineering, databases, networking, and digital technologies."
+  },
+  {
+    "degree": "Senior Secondary Education",
+    "institution": "CBSE",
+    "duration": "Completed",
+    "location": "India",
+    "description": "Completed higher secondary education with a focus on science and mathematics."
+  }
+]
