@@ -1,0 +1,64 @@
+[
+  {
+    "category": "Programming Languages",
+    "icon": "fa-solid fa-code",
+    "skills": [
+      "C",
+      "C++",
+      "Python",
+      "Java",
+      "JavaScript",
+      "PHP"
+    ]
+  },
+  {
+    "category": "Frontend Development",
+    "icon": "fa-solid fa-laptop-code",
+    "skills": [
+      "HTML5",
+      "CSS3",
+      "Bootstrap",
+      "Tailwind CSS",
+      "Responsive Design"
+    ]
+  },
+  {
+    "category": "Backend Development",
+    "icon": "fa-solid fa-server",
+    "skills": [
+      "Laravel",
+      "PHP",
+      "REST API",
+      "Authentication"
+    ]
+  },
+  {
+    "category": "Database",
+    "icon": "fa-solid fa-database",
+    "skills": [
+      "MySQL",
+      "MongoDB"
+    ]
+  },
+  {
+    "category": "AI & Machine Learning",
+    "icon": "fa-solid fa-robot",
+    "skills": [
+      "NumPy",
+      "Pandas",
+      "Scikit-learn",
+      "Matplotlib"
+    ]
+  },
+  {
+    "category": "Tools & Platforms",
+    "icon": "fa-solid fa-screwdriver-wrench",
+    "skills": [
+      "Git",
+      "GitHub",
+      "VS Code",
+      "Linux",
+      "Postman"
+    ]
+  }
+]

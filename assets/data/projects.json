@@ -1,0 +1,41 @@
+[
+  {
+    "title": "Portfolio Website",
+    "description": "A modern responsive portfolio website built using HTML, CSS, JavaScript and JSON.",
+    "image": "assets/images/projects/portfolio.webp",
+    "category": "Frontend",
+    "technologies": [
+      "HTML5",
+      "CSS3",
+      "JavaScript"
+    ],
+    "github": "https://github.com/codesbyabhay/portfolio",
+    "live": "https://codesbyabhay.github.io/portfolio/"
+  },
+  {
+    "title": "Library Management System",
+    "description": "Desktop application developed using Java Swing and MySQL.",
+    "image": "assets/images/projects/library.webp",
+    "category": "Java",
+    "technologies": [
+      "Java",
+      "Swing",
+      "MySQL"
+    ],
+    "github": "#",
+    "live": "#"
+  },
+  {
+    "title": "Student Management System",
+    "description": "PHP and MySQL based student management application.",
+    "image": "assets/images/projects/student.webp",
+    "category": "PHP",
+    "technologies": [
+      "PHP",
+      "MySQL",
+      "Bootstrap"
+    ],
+    "github": "#",
+    "live": "#"
+  }
+]

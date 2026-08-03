@@ -1,0 +1,109 @@
+/* ==========================================================
+   PROJECTS
+========================================================== */
+
+.projects-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(3,1fr);
+
+    gap:2rem;
+
+}
+
+.project-card{
+
+    background:var(--bg-card);
+
+    border-radius:20px;
+
+    overflow:hidden;
+
+    border:1px solid var(--border);
+
+    transition:var(--transition);
+
+}
+
+.project-card:hover{
+
+    transform:translateY(-10px);
+
+    box-shadow:var(--shadow-lg);
+
+}
+
+.project-card img{
+
+    width:100%;
+
+    height:220px;
+
+    object-fit:cover;
+
+}
+
+.project-content{
+
+    padding:1.5rem;
+
+}
+
+.project-category{
+
+    color:var(--primary);
+
+    font-size:.9rem;
+
+    font-weight:600;
+
+}
+
+.project-content h3{
+
+    margin:1rem 0;
+
+}
+
+.project-tech{
+
+    display:flex;
+
+    flex-wrap:wrap;
+
+    gap:.6rem;
+
+    margin:1rem 0;
+
+}
+
+.project-tech span{
+
+    background:rgba(37,99,235,.12);
+
+    border-radius:50px;
+
+    padding:.45rem .9rem;
+
+    font-size:.85rem;
+
+}
+
+.project-links{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    margin-top:1.5rem;
+
+}
+
+.project-links a{
+
+    color:var(--primary);
+
+    font-weight:600;
+
+}
