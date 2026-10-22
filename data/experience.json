@@ -1,0 +1,41 @@
+[
+  {
+    "role": "IT Trainer",
+    "organization": "Katyayani Institute of Computer Education (KICE)",
+    "dates": "September 2026 – Present",
+    "location": "Ghaziabad, Uttar Pradesh, India · On-site",
+    "employment_type": "Full-time",
+    "responsibilities": [
+      "Teach programming, full-stack web development, digital marketing, and core computer science concepts through practical, project-based learning.",
+      "Train students in Python, Java, JavaScript, front-end and back-end development, databases, and modern development tools.",
+      "Guide students in SEO, social media marketing, Google Ads, content marketing, web analytics, and online branding.",
+      "Help learners build real-world projects, develop problem-solving skills, and gain practical experience with industry-relevant tools."
+    ],
+    "status": "Current role"
+  },
+  {
+    "role": "Software Faculty",
+    "organization": "Indian Institute of Computer Science (IICS)",
+    "dates": "November 2025 – August 2026",
+    "location": "Nirman Vihar, Delhi, India · On-site",
+    "employment_type": "Full-time",
+    "responsibilities": [
+      "Taught programming, web development, core computer science, and digital marketing through practical, project-based learning.",
+      "Covered Python, Java, JavaScript, web development tools, SEO, Google Ads, social media marketing, content marketing, Google Analytics, email marketing, and website optimization.",
+      "Helped students apply theoretical knowledge, build projects, solve real-world problems, and prepare for technology and digital marketing careers."
+    ],
+    "status": "Previous role"
+  },
+  {
+    "role": "Student Volunteer",
+    "organization": "Indian Institute of Computer Science (IICS)",
+    "dates": "May 2025 – November 2025",
+    "location": "Yamuna Vihar, Delhi, India",
+    "employment_type": "Internship",
+    "responsibilities": [
+      "Supported learners with programming, project guidance, and debugging in Python, Java, and web development.",
+      "Helped beginners understand core concepts, improve their code, and build confidence through hands-on learning."
+    ],
+    "status": "Previous role"
+  }
+]

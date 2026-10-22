@@ -1,0 +1,92 @@
+[
+  {
+    "id": "library-management-system",
+    "title": "Library Management System",
+    "slug": "library-management-system",
+    "shortDescription": "Java, MySQL, and JDBC with authentication, student management, issue/return tracking, and reporting.",
+    "fullDescription": "A Java desktop application using MySQL and JDBC to automate library operations and manage records.",
+    "category": "Desktop Applications",
+    "technologies": ["Java", "MySQL", "Swing", "JDBC"],
+    "image": "https://images.unsplash.com/photo-1507842217343-583bb7270b66?w=900&auto=format&fit=crop&q=80",
+    "repositoryUrl": "",
+    "liveDemoUrl": "",
+    "features": [
+      "Authentication",
+      "Student management",
+      "Book issue/return tracking",
+      "Reporting",
+      "MySQL database integration"
+    ],
+    "challenges": "",
+    "role": "Developer",
+    "featured": true,
+    "date": ""
+  },
+  {
+    "id": "student-management-system",
+    "title": "Student Management System",
+    "slug": "student-management-system",
+    "shortDescription": "A database-driven Java application for student records and academic information, with CRUD operations.",
+    "fullDescription": "A Java, MySQL, and JDBC application focused on organizing student information and improving record accessibility.",
+    "category": "Desktop Applications",
+    "technologies": ["Java", "MySQL", "Swing", "JDBC"],
+    "image": "https://images.unsplash.com/photo-1687603917313-ccae1a289a9d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D",
+    "repositoryUrl": "",
+    "liveDemoUrl": "",
+    "features": [
+      "Student records",
+      "CRUD operations",
+      "Database integration",
+      "Academic information management"
+    ],
+    "challenges": "",
+    "role": "Developer",
+    "featured": true,
+    "date": ""
+  },
+  {
+    "id": "full-stack-web-application",
+    "title": "Full-Stack Web Application",
+    "slug": "full-stack-web-application",
+    "shortDescription": "Web Application made with PHP, Laravel, MySQL, and JavaScript with authentication and administrative features.",
+    "fullDescription": "A full-stack application described in the resume, built with PHP, Laravel, MySQL, and JavaScript.",
+    "category": "Web Development",
+    "technologies": ["PHP", "Laravel", "MySQL", "JavaScript"],
+    "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=900&auto=format&fit=crop&q=80",
+    "repositoryUrl": "",
+    "liveDemoUrl": "",
+    "features": [
+      "Authentication",
+      "Database integration",
+      "CRUD functionality",
+      "Administrative features",
+      "Responsive interface"
+    ],
+    "challenges": "",
+    "role": "Developer",
+    "featured": true,
+    "date": ""
+  },
+  {
+    "id": "personal-portfolio-website",
+    "title": "Personal Portfolio Website",
+    "slug": "personal-portfolio-website",
+    "shortDescription": "Responsive portfolio website showcasing projects, skills, certifications, and achievements.",
+    "fullDescription": "A responsive portfolio built with HTML5, CSS3, and JavaScript, with a focus on mobile-friendly layouts and user experience.",
+    "category": "Web Development",
+    "technologies": ["HTML5", "CSS3", "JavaScript", "Responsive Design"],
+    "image": "https://images.pexels.com/photos/34140/pexels-photo.jpg",
+    "repositoryUrl": "",
+    "liveDemoUrl": "https://codesbyabhay.github.io/portfolio/",
+    "features": [
+      "Responsive layout",
+      "Project showcase",
+      "Skills and certifications",
+      "Performance and UX improvements"
+    ],
+    "challenges": "",
+    "role": "Designer and developer",
+    "featured": true,
+    "date": ""
+  }
+]

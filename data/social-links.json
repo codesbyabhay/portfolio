@@ -1,0 +1,317 @@
+[
+  {
+    "name": "CodesByAbhay",
+    "url": "https://codesbyabhay.com",
+    "category": "Websites and Portfolio",
+    "username": "codesbyabhay",
+    "description": "Official brand website",
+    "icon": "globe",
+    "featured": true
+  },
+  {
+    "name": "Personal Portfolio",
+    "url": "https://codesbyabhay.github.io/portfolio",
+    "category": "Websites and Portfolio",
+    "username": "codesbyabhay",
+    "description": "Professional portfolio website",
+    "icon": "briefcase",
+    "featured": true
+  },
+  {
+    "name": "Bluesky",
+    "url": "https://bsky.app/profile/codesbyabhay.bsky.social",
+    "category": "Developer and Learning Platforms",
+    "username": "codesbyabhay.bsky.social",
+    "description": "Bluesky profile",
+    "icon": "cloud",
+    "featured": false
+  },
+  {
+    "name": "Codecademy",
+    "url": "https://codecademy.com/profiles/codesbyabhay",
+    "category": "Developer and Learning Platforms",
+    "username": "codesbyabhay",
+    "description": "Learning profile",
+    "icon": "book-open",
+    "featured": false
+  },
+  {
+    "name": "CodePen",
+    "url": "https://codepen.io/codesbyabhay",
+    "category": "Developer and Learning Platforms",
+    "username": "codesbyabhay",
+    "description": "Frontend experiments",
+    "icon": "code",
+    "featured": false
+  },
+  {
+    "name": "Commudle",
+    "url": "https://commudle.com/users/codesbyabhay",
+    "category": "Developer and Learning Platforms",
+    "username": "codesbyabhay",
+    "description": "Developer community profile",
+    "icon": "users",
+    "featured": false
+  },
+  {
+    "name": "DEV Community",
+    "url": "https://dev.to/codesbyabhay",
+    "category": "Developer and Learning Platforms",
+    "username": "codesbyabhay",
+    "description": "Developer articles",
+    "icon": "book-open",
+    "featured": false
+  },
+  {
+    "name": "Docker Hub",
+    "url": "https://hub.docker.com/u/codesbyabhay",
+    "category": "Developer and Learning Platforms",
+    "username": "codesbyabhay",
+    "description": "Container image profile",
+    "icon": "package",
+    "featured": false
+  },
+  {
+    "name": "GeeksforGeeks",
+    "url": "https://geeksforgeeks.org/user/codesbyabhay",
+    "category": "Developer and Learning Platforms",
+    "username": "codesbyabhay",
+    "description": "Programming profile",
+    "icon": "code",
+    "featured": false
+  },
+  {
+    "name": "GitHub",
+    "url": "https://github.com/codesbyabhay",
+    "category": "Developer and Learning Platforms",
+    "username": "codesbyabhay",
+    "description": "Code repositories and projects",
+    "icon": "github",
+    "featured": true
+  },
+  {
+    "name": "GitLab",
+    "url": "https://gitlab.com/codesbyabhay",
+    "category": "Developer and Learning Platforms",
+    "username": "codesbyabhay",
+    "description": "Code hosting profile",
+    "icon": "git-branch",
+    "featured": false
+  },
+  {
+    "name": "LeetCode",
+    "url": "https://leetcode.com/u/codesbyabhay",
+    "category": "Developer and Learning Platforms",
+    "username": "codesbyabhay",
+    "description": "Coding practice profile",
+    "icon": "code",
+    "featured": false
+  },
+  {
+    "name": "npm",
+    "url": "https://npmjs.com/~codesbyabhay",
+    "category": "Developer and Learning Platforms",
+    "username": "codesbyabhay",
+    "description": "JavaScript package profile",
+    "icon": "package",
+    "featured": false
+  },
+  {
+    "name": "PyPI",
+    "url": "https://pypi.org/user/codesbyabhay",
+    "category": "Developer and Learning Platforms",
+    "username": "codesbyabhay",
+    "description": "Python package profile",
+    "icon": "package",
+    "featured": false
+  },
+  {
+    "name": "Replit",
+    "url": "https://replit.com/@codesbyabhay",
+    "category": "Developer and Learning Platforms",
+    "username": "codesbyabhay",
+    "description": "Online development profile",
+    "icon": "terminal",
+    "featured": false
+  },
+  {
+    "name": "Dailymotion",
+    "url": "https://www.dailymotion.com/user/codesbyabhay",
+    "category": "Social and Content Platforms",
+    "username": "codesbyabhay",
+    "description": "Video content profile",
+    "icon": "play-circle",
+    "featured": false
+  },
+  {
+    "name": "Facebook",
+    "url": "https://facebook.com/codesbyabhay",
+    "category": "Social and Content Platforms",
+    "username": "codesbyabhay",
+    "description": "Facebook profile",
+    "icon": "facebook",
+    "featured": true
+  },
+  {
+    "name": "Fiverr",
+    "url": "https://fiverr.com/codesbyabhay",
+    "category": "Social and Content Platforms",
+    "username": "codesbyabhay",
+    "description": "Freelance services profile",
+    "icon": "briefcase",
+    "featured": false
+  },
+  {
+    "name": "Freelancer",
+    "url": "https://freelancer.com/u/codesbyabhay",
+    "category": "Social and Content Platforms",
+    "username": "codesbyabhay",
+    "description": "Freelance marketplace profile",
+    "icon": "briefcase",
+    "featured": false
+  },
+  {
+    "name": "Gravatar",
+    "url": "https://gravatar.com/codesbyabhay",
+    "category": "Social and Content Platforms",
+    "username": "codesbyabhay",
+    "description": "Public profile",
+    "icon": "user",
+    "featured": false
+  },
+  {
+    "name": "Instagram",
+    "url": "https://instagram.com/codesbyabhay",
+    "category": "Social and Content Platforms",
+    "username": "codesbyabhay",
+    "description": "Instagram profile",
+    "icon": "instagram",
+    "featured": true
+  },
+  {
+    "name": "LinkedIn",
+    "url": "https://linkedin.com/in/codesbyabhay",
+    "category": "Social and Content Platforms",
+    "username": "codesbyabhay",
+    "description": "Professional networking",
+    "icon": "linkedin",
+    "featured": true
+  },
+  {
+    "name": "Pinterest Business",
+    "url": "https://pinterest.com/codesbyabhay",
+    "category": "Social and Content Platforms",
+    "username": "codesbyabhay",
+    "description": "Pinterest profile",
+    "icon": "image",
+    "featured": false
+  },
+  {
+    "name": "Reddit",
+    "url": "https://reddit.com/user/codesbyabhay",
+    "category": "Social and Content Platforms",
+    "username": "codesbyabhay",
+    "description": "Reddit profile",
+    "icon": "message-circle",
+    "featured": false
+  },
+  {
+    "name": "RubyGems",
+    "url": "https://rubygems.org/profiles/codesbyabhay",
+    "category": "Social and Content Platforms",
+    "username": "codesbyabhay",
+    "description": "Ruby package profile",
+    "icon": "package",
+    "featured": false
+  },
+  {
+    "name": "Snapchat",
+    "url": "https://snapchat.com/@codesbyabhay",
+    "category": "Social and Content Platforms",
+    "username": "codesbyabhay",
+    "description": "Snapchat profile",
+    "icon": "camera",
+    "featured": false
+  },
+  {
+    "name": "Telegram",
+    "url": "https://t.me/codesbyabhay",
+    "category": "Social and Content Platforms",
+    "username": "codesbyabhay",
+    "description": "Telegram profile",
+    "icon": "send",
+    "featured": false
+  },
+  {
+    "name": "Threads",
+    "url": "https://threads.com/@codesbyabhay",
+    "category": "Social and Content Platforms",
+    "username": "codesbyabhay",
+    "description": "Threads profile",
+    "icon": "at-sign",
+    "featured": false
+  },
+  {
+    "name": "TikTok",
+    "url": "https://tiktok.com/@codesbyabhay",
+    "category": "Social and Content Platforms",
+    "username": "codesbyabhay",
+    "description": "TikTok profile",
+    "icon": "video",
+    "featured": false
+  },
+  {
+    "name": "Vimeo",
+    "url": "https://vimeo.com/codesbyabhay",
+    "category": "Social and Content Platforms",
+    "username": "codesbyabhay",
+    "description": "Vimeo profile",
+    "icon": "play-circle",
+    "featured": false
+  },
+  {
+    "name": "Slack",
+    "url": "https://codesbyabhay.slack.com",
+    "category": "Additional Professional and Content Platforms",
+    "username": "codesbyabhay",
+    "description": "Slack workspace link",
+    "icon": "message-square",
+    "featured": false
+  },
+  {
+    "name": "X",
+    "url": "https://x.com/codesbyabhay",
+    "category": "Additional Professional and Content Platforms",
+    "username": "codesbyabhay",
+    "description": "X profile",
+    "icon": "at-sign",
+    "featured": true
+  },
+  {
+    "name": "YouTube",
+    "url": "https://youtube.com/@codesbyabhay",
+    "category": "Additional Professional and Content Platforms",
+    "username": "codesbyabhay",
+    "description": "YouTube channel",
+    "icon": "youtube",
+    "featured": true
+  },
+  {
+    "name": "Katyayani Institute of Computer Education",
+    "url": "https://www.linkedin.com/company/135146549/",
+    "category": "Professional and Organization Profiles",
+    "username": "Katyayani Institute of Computer Education",
+    "description": "Current IT Trainer role — organization profile on LinkedIn",
+    "icon": "linkedin",
+    "featured": true
+  },
+  {
+    "name": "Indian Institute of Computer Science",
+    "url": "https://www.linkedin.com/company/13297352/",
+    "category": "Professional and Organization Profiles",
+    "username": "Indian Institute of Computer Science",
+    "description": "Previous Software Faculty and Student Volunteer roles — organization profile on LinkedIn",
+    "icon": "linkedin",
+    "featured": true
+  }
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "qualification": "Master of Computer Applications (MCA)",
+    "institution": "Currently pursuing",
+    "dates": "In progress",
+    "status": "Currently pursuing, as confirmed by the user"
+  },
+  {
+    "qualification": "Bachelor of Computer Applications (BCA)",
+    "institution": "Indira Gandhi National Open University (IGNOU)",
+    "dates": "2023 – 2026",
+    "status": "Completed, as confirmed by the user"
+  },
+  {
+    "qualification": "Master Diploma in Computer Engineering (MDCE)",
+    "institution": "Indian Institute of Computer Science (IICS)",
+    "dates": "2023 – 2026",
+    "status": "Completed, as confirmed by the user"
+  },
+  {
+    "qualification": "Diploma in Computer Application (DCAP)",
+    "institution": "Shiv Computers and Career Coaching Center",
+    "dates": "2022 – 2023",
+    "status": "Dates as stated on resume"
+  },
+  {
+    "qualification": "Senior Secondary School (Class XII)",
+    "institution": "Central Board of Secondary Education (CBSE)",
+    "dates": "2023",
+    "status": "Year as stated on resume"
+  },
+  {
+    "qualification": "High School (Class X)",
+    "institution": "Central Board of Secondary Education (CBSE)",
+    "dates": "2021",
+    "status": "Year as stated on resume"
+  }
+]
